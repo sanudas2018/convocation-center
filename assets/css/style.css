@@ -1,0 +1,191 @@
+@font-face {
+   src: url(../fonts/google-font/Poppins-Bold.ttf);
+   font-family: Poppins-Bold;
+}
+@font-face {
+   src: url(../fonts/google-font/Montserrat-Regular.ttf);
+   font-family: Montserrat-Regular;
+}
+
+
+h1{
+   font-family: Poppins-Bold;
+
+}
+.package-para-color{
+   color: #848199;
+}
+h2,
+h3,
+h4,
+h5{
+   font-family: Poppins-Bold;
+   color: #231D4F;
+   /* font-size: 2.5rem; */
+}
+p{
+   font-family: Montserrat-Regular;
+   font-size: 1.2rem;
+}
+
+
+/* <!-- START HEADER SECTION --> */
+
+.carousel-img-size{
+   width: 100%;
+   height: 500px;
+   background: no-repeat scroll center scroll;
+   background-size: cover;
+}
+
+.carousel-item::before{
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   background: #000;
+   opacity: 0.7;
+}
+.carousel-item{
+   position: relative;
+}
+.carousel-text-point{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+/* <!-- END HEADER SECTION --> */
+
+/* <!-- START MAIN SECTION  --> */
+.every-moment-img{
+   margin-left: -333px;
+}
+.toast-rel{
+   position: relative;
+}
+.pos-ab{
+   position: absolute;
+   width: 270px;
+   height: 50px;
+   right: 0px;
+   top: 170px;
+   bottom: 0px;
+   margin: 0px auto;
+   z-index: 99;
+
+}
+
+/* OUR PACKAGE? */
+.rounded-cto{
+   border-radius: 30px;
+}
+.package-but-color{
+   background-color: #f496d22d;
+}
+.card-margin {
+   margin-top: -28px;
+}
+.pil-margin{
+   margin-top: -62px;
+}
+
+
+/* <!-- START MY EXTRA SECTION> --> */
+.bar{
+   width: 60px;
+   height: 2px;
+   margin-left: 20px;
+}
+/* PART ONE? */
+.background-img{
+   background-image: url(../images/slider/55.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center top;
+   background-attachment: fixed;
+
+}
+
+/* PART TWO? */
+/* gallery MODIFY */
+.gallery{
+   margin-top: 140px;
+}
+.gallery img{
+   cursor: pointer; 
+}
+.gallery img:hover{
+   transform: scale(1.1);
+   transition: 1.5s;
+}
+
+/* <!-- END MAIN SECTION  --> */
+
+/* <!-- START FOOTER SECTION --> */
+.footer-img-size{
+   width: 110px;
+   height: 30px;
+}
+/* ANIMATION HOT BUTTON? */
+.animatin-hot{
+   animation: hot 2s ease-in-out 0.5s infinite alternate;
+   animation-play-state: running;
+}
+@keyframes hot{
+   0%{
+     transform: scale(1);
+     background-image: url();
+   }
+   50%{
+     transform: scale(1.2);
+   }
+   100%{
+     transform: scale(1);
+   }
+ }
+ 
+
+/* <!-- END FOOTER SECTION --> */
+/* RESPONSIVE */
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+   .footer-get{
+      margin-left: -20px;
+   }
+   .para-with{
+      width: 300px;
+   
+   }
+   .button-size{
+      width: 250px;
+   }
+   
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+   .button-size{
+      width: 250px;
+   }
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
